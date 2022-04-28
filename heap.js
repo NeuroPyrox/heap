@@ -53,8 +53,8 @@ export default class Heap {
     // Insert [end] back into the array, starting from the root and working down towards the leaves.
     while (true) {
       // Which node will replace the one at [index].
-      const swapIndex = index;
-      const swap = end;
+      let swapIndex = index;
+      let swap = end;
 
       // swap = min(swap, leftChild)
       const leftIndex = 2 * index + 1;
