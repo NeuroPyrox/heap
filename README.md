@@ -1,5 +1,7 @@
 # heap
-An iterable binary heap.
+An iterable binary heap. I couldn't find any other heap libraries that satisfied the iterator interface, probably due to ending my search too soon, so I made this little one.
+
+To include this in an html file, use a CDN such as jsDelivr.
 
 Min heap example:
 ```
@@ -15,12 +17,10 @@ for (const { data } of heap) {
 }
 ```
 
-To include this in an html file, use a CDN such as jsDelivr.
-
 Currently unnecessary todos:
+- Release to npm
 - More example code
 - More methods
-- Add to npm
 - Unit testing
 - Benchmarks
 - WASM
