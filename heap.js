@@ -47,7 +47,7 @@ export default class Heap {
     }
     const value = this._heap[0];
 
-    const index = 0;
+    let index = 0;
     const end = this._heap.pop();
 
     // Insert [end] back into the array, starting from the root and working down towards the leaves.
