@@ -1,5 +1,5 @@
 # heap
-An iterable binary heap. I couldn't find any other heap libraries that satisfied the iterator interface, probably due to ending my search too soon, so I made this little one.
+An iterable binary heap. I couldn't find any other heap libraries that satisfied the iterator interface, probably due to ending my search too soon, so I made this little one. I'm guilty of a hefty bit of premature optimization, especially in the while loop of `next`.
 
 To include this in an html file, use a CDN such as jsDelivr.
 
