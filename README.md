@@ -1,5 +1,5 @@
 # heap
-An iterable binary heap. I couldn't find any other heap libraries that satisfied the iterator interface, probably due to ending my search too soon, so I made this little one. I'm guilty of a hefty bit of premature optimization, especially in the while loop of `next`.
+An iterable binary heap. I couldn't find any other heap libraries that satisfied the iterator interface, probably due to ending my search too soon, so I made this little one. I'm guilty of of premature optimization, especially in the while loop of `next`.
 
 To include this in an html file, use a CDN such as jsDelivr.
 
@@ -17,7 +17,7 @@ for (const { data } of heap) {
 }
 ```
 
-Currently unnecessary todos:
+Prospective improvements:
 - Release to npm
 - More example code
 - More methods
